@@ -4,8 +4,10 @@
 ## Java
 
 ### クリーン
+```
 mvn clean
-
+```
 ### インストール
+```
 mvn install
-
+```
