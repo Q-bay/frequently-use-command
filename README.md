@@ -21,7 +21,7 @@ docker-compose down --rmi all --volumes --remove-orphans
 ### docker不要イメージの削除
 ```
 docker image prune
-```
+``` 
 
 
 ## Java
