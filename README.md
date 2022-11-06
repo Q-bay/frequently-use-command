@@ -35,8 +35,13 @@ mvn clean
 mvn install
 ```
 
+### テストスキップ
+```
+mvn install -Dmaven.test.skip=true
+```
 
-## python
+
+## Python
 
 ### docker-compose起動時にdjangoプロジェクト作成
 ```
@@ -48,3 +53,8 @@ docker-compose run [docker-composeのサービス名] django-admin.py startproje
 ```
 psql -h localhost -U postgres -p 5432 
 ```
+
+
+## TypeScript
+### コンパイル
+npx tsc
