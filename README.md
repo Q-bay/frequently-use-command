@@ -55,7 +55,7 @@ psql -h localhost -U postgres -p 5432
 ```
 ## React
 ### プロジェクト作成
-npx-create-react-app <プロジェクト作成> --template <テンプレート(typescriptとか)>
+npx create-react-app <プロジェクト作成> --template <テンプレート(typescriptとか)>
 
 ### 起動
 npm start
