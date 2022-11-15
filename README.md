@@ -53,8 +53,16 @@ docker-compose run [docker-composeのサービス名] django-admin.py startproje
 ```
 psql -h localhost -U postgres -p 5432 
 ```
+## React
+### プロジェクト作成
+npx-create-react-app <プロジェクト作成> --template <テンプレート(typescriptとか)>
 
+### 起動
+npm start
 
 ## TypeScript
 ### コンパイル
 npx tsc
+
+### 実行
+npx ts-node app.ts
