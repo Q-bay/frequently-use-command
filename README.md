@@ -66,3 +66,9 @@ npx tsc
 
 ### 実行
 npx ts-node app.ts
+
+
+## Go
+### 環境変数の設定
+go env -w GOPATH=HOGE
+
