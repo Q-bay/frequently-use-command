@@ -69,6 +69,10 @@ npx ts-node app.ts
 
 
 ## Go
+### Goモジュールの初期化
+go mod init <プロジェクト名>
 ### 環境変数の設定
 go env -w GOPATH=HOGE
 
+### iniパッケージの取得
+go get "gopkg.in/go-ini/ini.v1"
